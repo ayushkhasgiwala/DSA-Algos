@@ -41,10 +41,10 @@ void merge(vector<int> &a, int i, int mid,int j)
         m++;
     }
     //k=0;
-    for(int z=i;z<=j;z++)
+    for(int z=i,x=0;z<=j;z++,x++)
     {
         //cout<<"idhar to aa ja bc";
-        a[z]=temp[z-i];
+        a[z]=temp[x];
     }
 }
 
